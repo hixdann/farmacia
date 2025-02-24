@@ -17,12 +17,12 @@ function ListaCategorias() {
     }
 
     useEffect(() => {
-        buscarCategorias();  // Chama a função que faz a requisição
+        buscarCategorias(); 
     }, []); 
 
     return (
         <>
-            {categorias.length === 0 ? (  // Verifica se não há categorias carregadas
+            {categorias.length === 0 ? ( 
                 <DNA
                     visible={true}
                     height="200"

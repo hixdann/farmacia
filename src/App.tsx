@@ -18,7 +18,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/categorias" element={<ListaCategorias />} />
-              <Route path="/cadastrartema" element={<FormTema />} />
+              <Route path="/cadastrartema" element={<FormTema />} /> {/*Não sei porque, mas bugou aqui e só enontra com isso errado  */}
               <Route path="/editarcategoria/:id" element={<FormCategoria />} />
               <Route path="/deletartema/:id" element={<DeletarCategoria />} />
             </Routes>
